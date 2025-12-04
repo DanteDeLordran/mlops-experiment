@@ -1,0 +1,10 @@
+artifact_location: file:///home/lordran/workspace/some-ml/mlruns/315006879522392442/models/m-7af4c7f731f347a596feb2701b4b9e7c/artifacts
+creation_timestamp: 1764747360161
+experiment_id: '315006879522392442'
+last_updated_timestamp: 1764747362321
+model_id: m-7af4c7f731f347a596feb2701b4b9e7c
+model_type: null
+name: model
+source_run_id: 48a668e7a1b944a0b91b36d70a1b95a1
+status: 2
+status_message: null
