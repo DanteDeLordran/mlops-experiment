@@ -1,0 +1,249 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "89cd69c402050fef2723aa4cc01951ad",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Fpaq",
+      "code_hash": "953a533f604bd6038c3b2c0cbc9aafef",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"load-csv-data\">Load CSV data</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xIaH",
+      "code_hash": "36bfc2fcd5db0d59e06b4d984e78dfb9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='xIaH-0' random-id='f4d078ac-6c69-317c-6e0b-0875dcf369da'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; family mormon have never tried explain them they still stare puzzled from time time like some kind strange creature nonetheless they have come admire for the patience calmness equanimity acceptance and compassion have developed all the things buddhism teaches &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;buddhism has very much lot compatible with christianity especially considering that sin and suffering are almost the same thing suffering caused wanting things shouldn want going about getting things the wrong way christian this would mean wanting things that don coincide with god will and wanting things that coincide but without the aid jesus buddhism could also seen proof god all mighty will and omnipotence certainly christians are lucky have one such christ there side but what about everyone else well many christians believe god grace salvation and buddhism god way showing grace upon others would also help study the things jesus said and see how buddha has made similar claims such rich man getting into heaven joke basically advocating that should rid ourselves material possessions fact distinctly remembered jesus making someone cry because that someone asked what achieve salvation and jesus replied with live like buddhist very very roughly translated also point out that buddha rarely spoke anything about god theory personally because knew well enough leave that jesus and mohamed who came later just remember conflict difference opinion but education can fun involving and enlightening easier teach something than prove right like intelligent design &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;seriously don say thing first all they won get its too complex explain normal people anyway and they are dogmatic then doesn matter what you say see mechante post and for any reason you decide later life move from buddhism and that doesn suit you identity though you still get keep all the wisdom then your family will treat you like you went through weird hippy phase for while there didncha and you never hear the end pro tip don put one these your wall jpg &#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;what you have learned yours and only yours what you want teach different focus the goal not the wrapping paper buddhism can passed others without word about the buddha &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;for your own benefit you may want read living buddha living christ thich nhat hanh you might find any subsequent discussions with your loved ones easier you are able articulate some the parallels that exist between buddhism and christianity don surprised they react negatively for having lost you treat them with compassion and deserved understanding although they may indeed display signs being hurt your new path properly sharing with them way that may alleviate their fear something they may perceive wrong the very least alien their beliefs may help allowing them the long run accept although not necessarily agree with your decision regardless where they end you have make your own way &#92;&quot;,&#92;&quot;category&#92;&quot;:1}]&quot;' data-total-rows='5' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qcbI",
+      "code_hash": "2b75a3c72332d4bfc30868db6393576b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/json": "[37249, 2]"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fLja",
+      "code_hash": "2a547f2ec96fa89115931d191253c9e2",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>array([&#x27; genuinely feel that the patriot act one the best shows its kind recent times enjoyed lot the episodes while also felt some the other episodes lacked the same quality this episode left slightly disappointed say the least brought lot important and relevant points against the and bjp but seemingly ignored the positive changes brought about since 2014 moreover merely glanced over the shortcomings rahul gandhi and the inc not even minutes the episode was about why bjp actually had overwhelming victory 2014 nothing about the sheer incompetence rahul gandhi actually considered candidate this episode was exactly what outsider would assume about india using the fractional information obtained through social media &#x27;],\n      dtype=object)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "oUwK",
+      "code_hash": "e59862bd060558edfb65c39d205298c9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "<class 'pandas.core.frame.DataFrame'>\nRangeIndex: 37249 entries, 0 to 37248\nData columns (total 2 columns):\n #   Column         Non-Null Count  Dtype \n---  ------         --------------  ----- \n 0   clean_comment  37149 non-null  object\n 1   category       37249 non-null  int64 \ndtypes: int64(1), object(1)\nmemory usage: 582.1+ KB\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "VutL",
+      "code_hash": "2f90a3a7e92d8ff82d6c69323f80d9d4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='VutL-0' random-id='4d4b2670-9099-3ee8-cacc-70d461493749'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;clean_comment&#92;&quot;,&#92;&quot;value&#92;&quot;:100},{&#92;&quot;&#92;&quot;:&#92;&quot;category&#92;&quot;,&#92;&quot;value&#92;&quot;:0}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;value&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Zvfz",
+      "code_hash": "c6b9c4cde4e22c501f9ae17d798e5ac0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Zvfz-0' random-id='7aff62c8-0357-bb54-fb33-a576be6b12ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:413,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:605,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:2422,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:2877,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:3307,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:3420,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4292,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4400,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4462,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:5127,&#92;&quot;clean_comment&#92;&quot;:NaN,&#92;&quot;category&#92;&quot;:0}]&quot;' data-total-rows='100' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "kIlB",
+      "code_hash": "c2580a124bee80284d697f5382c4deeb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='kIlB-0' random-id='ffdb6d1f-a638-37af-3a2a-a19f75812a86'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;category&#92;&quot;:0,&#92;&quot;count&#92;&quot;:100}]&quot;' data-total-rows='1' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;count&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "XtpK",
+      "code_hash": "ea1f745612d2e9b4e33348c38a77ab13",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.int64(350)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zAPM",
+      "code_hash": "e84c64b369b165b78ff97787b8d02b33",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='zAPM-0' random-id='54bf2db7-c42a-4266-be84-2c4fdb536aca'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:375,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:392,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:617,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; aurum mom &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:651,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:1222,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:1528,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:1613,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; attention please keep mind that the this thread has chosen mark this post with the eddiquette enforced tag therefore any comments that not follow reddiquette will removed please see this page learn more about the tag you see others posting comments that violate this tag please report them the mods thank you for contributing and cooperating bot automoderator comments q11pu what automoderator and this action was performed automatically please contact the moderators this subreddit message compose 2fr 2findia you have any questions concerns &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:1760,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; jpg&#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:1835,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:1858,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; jpg&#92;&quot;,&#92;&quot;category&#92;&quot;:0}]&quot;' data-total-rows='350' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ntQQ",
+      "code_hash": "804ae2364317e72964365daa2809f879",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.int64(0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "VsuW",
+      "code_hash": "3b6cae967f84d6023b0b292ce49690f8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='VsuW-0' random-id='b99339c6-3645-e83e-e4ee-0cfc3c2246b3'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:181,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4432,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;&#92;&#92;n&#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:10592,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;    &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:16173,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;  &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:32149,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;&#92;&#92;n                    &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:34959,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;   &#92;&quot;,&#92;&quot;category&#92;&quot;:0}]&quot;' data-total-rows='6' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DcWG",
+      "code_hash": "4846a0363cab9e20ef6df3a3084067f7",
+      "outputs": [
+        {
+          "type": "error",
+          "ename": "multiple-defs",
+          "evalue": "The variable 'df' was defined by another cell",
+          "traceback": []
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "jdob",
+      "code_hash": "f4cdc5db3cfd991f03e1e81e376fd41f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='jdob-0' random-id='024f9c67-372b-8e3f-6d2d-4b55b3fd2236'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; family mormon have never tried explain them they still stare puzzled from time time like some kind strange creature nonetheless they have come admire for the patience calmness equanimity acceptance and compassion have developed all the things buddhism teaches &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:1,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;buddhism has very much lot compatible with christianity especially considering that sin and suffering are almost the same thing suffering caused wanting things shouldn want going about getting things the wrong way christian this would mean wanting things that don coincide with god will and wanting things that coincide but without the aid jesus buddhism could also seen proof god all mighty will and omnipotence certainly christians are lucky have one such christ there side but what about everyone else well many christians believe god grace salvation and buddhism god way showing grace upon others would also help study the things jesus said and see how buddha has made similar claims such rich man getting into heaven joke basically advocating that should rid ourselves material possessions fact distinctly remembered jesus making someone cry because that someone asked what achieve salvation and jesus replied with live like buddhist very very roughly translated also point out that buddha rarely spoke anything about god theory personally because knew well enough leave that jesus and mohamed who came later just remember conflict difference opinion but education can fun involving and enlightening easier teach something than prove right like intelligent design &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:2,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;seriously don say thing first all they won get its too complex explain normal people anyway and they are dogmatic then doesn matter what you say see mechante post and for any reason you decide later life move from buddhism and that doesn suit you identity though you still get keep all the wisdom then your family will treat you like you went through weird hippy phase for while there didncha and you never hear the end pro tip don put one these your wall jpg &#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;&#92;&quot;:3,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;what you have learned yours and only yours what you want teach different focus the goal not the wrapping paper buddhism can passed others without word about the buddha &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;for your own benefit you may want read living buddha living christ thich nhat hanh you might find any subsequent discussions with your loved ones easier you are able articulate some the parallels that exist between buddhism and christianity don surprised they react negatively for having lost you treat them with compassion and deserved understanding although they may indeed display signs being hurt your new path properly sharing with them way that may alleviate their fear something they may perceive wrong the very least alien their beliefs may help allowing them the long run accept although not necessarily agree with your decision regardless where they end you have make your own way &#92;&quot;,&#92;&quot;category&#92;&quot;:1}]&quot;' data-total-rows='5' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "fHji",
+      "code_hash": "cea1a70ce0983a72d2e98e5af319a95f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='fHji-0' random-id='5e09d112-d0e9-de74-a3dc-f67b175ab7c5'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; family mormon have never tried explain them they still stare puzzled from time time like some kind strange creature nonetheless they have come admire for the patience calmness equanimity acceptance and compassion have developed all the things buddhism teaches &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:1,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;buddhism has very much lot compatible with christianity especially considering that sin and suffering are almost the same thing suffering caused wanting things shouldn want going about getting things the wrong way christian this would mean wanting things that don coincide with god will and wanting things that coincide but without the aid jesus buddhism could also seen proof god all mighty will and omnipotence certainly christians are lucky have one such christ there side but what about everyone else well many christians believe god grace salvation and buddhism god way showing grace upon others would also help study the things jesus said and see how buddha has made similar claims such rich man getting into heaven joke basically advocating that should rid ourselves material possessions fact distinctly remembered jesus making someone cry because that someone asked what achieve salvation and jesus replied with live like buddhist very very roughly translated also point out that buddha rarely spoke anything about god theory personally because knew well enough leave that jesus and mohamed who came later just remember conflict difference opinion but education can fun involving and enlightening easier teach something than prove right like intelligent design &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:2,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;seriously don say thing first all they won get its too complex explain normal people anyway and they are dogmatic then doesn matter what you say see mechante post and for any reason you decide later life move from buddhism and that doesn suit you identity though you still get keep all the wisdom then your family will treat you like you went through weird hippy phase for while there didncha and you never hear the end pro tip don put one these your wall jpg &#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;&#92;&quot;:3,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;what you have learned yours and only yours what you want teach different focus the goal not the wrapping paper buddhism can passed others without word about the buddha &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;for your own benefit you may want read living buddha living christ thich nhat hanh you might find any subsequent discussions with your loved ones easier you are able articulate some the parallels that exist between buddhism and christianity don surprised they react negatively for having lost you treat them with compassion and deserved understanding although they may indeed display signs being hurt your new path properly sharing with them way that may alleviate their fear something they may perceive wrong the very least alien their beliefs may help allowing them the long run accept although not necessarily agree with your decision regardless where they end you have make your own way &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:5,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;you should all sit down together and watch the simpsons episode where lisa becomes buddhist simpsons season episode she little faith then discuss &#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;&#92;&quot;:6,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot; was teens when discovered zen meditation was then undiagnosed bpd being homeschooled and just gotten 56k modem with web connection where came across link zen meditation tried for couple weeks and the change was palpable felt the most profound sense peace ever felt grades immediately started going had more energy started martial arts just huge positive change all around parents asked something was wrong fundie parents when anything changes this was where naivet&#92;&#92;u00e9 kicked foolishly told them been trying meditation and really calmed down thought they happy that found something that helped but never forget what happened next mother affected this mockingly calm breathy voice she said you can pretend calm and happy all you want but without jesus you never content was that moment that any belief had christian faith all vanished completely realized that she had probably never been happy ever have never felt profoundly sorry for someone did for her that moment &#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:7,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;jesus was zen meets jew &#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:8,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;there are two varieties christians dogmatic that dwell words and conservative that take heart the spirit the teachings hate oversimplify things but helps this understanding you are discussing with dogmatic religious people who live the letter the law will uphill battle wish you luck you are discussing with moderates exchange idea should come fairly easily comparing contrasting also discussing parallel teachings presented differently wouldn out the ordinary they may give you relevant spiritual advice even though you are not believer their religion &#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;&#92;&quot;:9,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;dont worry about trying explain yourself just meditate regularly and try hard you can more aware everything else will follow coming from someone who has been throught his situation welcome pms &#92;&quot;,&#92;&quot;category&#92;&quot;:1}]&quot;' data-total-rows='32271' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zRAs",
+      "code_hash": "c682cc98f6954f79587e76d7832ea993",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>np.int64(0)</pre>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Osmr",
+      "code_hash": "4e2fe6543a30445d3b513d8dfbe39f20",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Osmr-0' random-id='3b00a6b7-5590-6c06-7ccd-b18a44745cea'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[]&quot;' data-total-rows='0' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}
