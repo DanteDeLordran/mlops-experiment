@@ -143,9 +143,37 @@ def _(df, sns):
 
 
 @app.cell
-def _(plt):
+def _(df, plt, sns):
     # Create figure and axes
     plt.figure(figsize=(10,6))
+
+    sns.kdeplot(df[df['category'] == 1]['word_count'], label='Positive', fill=True)
+
+    sns.kdeplot(df[df['category'] == 0]['word_count'], label='Neutral', fill=True)
+
+    sns.kdeplot(df[df['category'] == -1]['word_count'], label='Negative', fill=True)
+
+    plt.title('Word count distribution by category')
+    plt.xlabel('World count')
+    plt.ylabel('Density')
+
+    plt.legend()
+
+    plt.show()
+    return
+
+
+@app.cell
+def _(df, plt, sns):
+    plt.figure(figsize=(10,6))
+
+    sns.scatterplot(data=df, x='category', y='word_count', alpha=0.5)
+
+    plt.title('Scatterplot of word count by category')
+    plt.xlabel('Category')
+    plt.ylabel('Word count')
+
+    plt.show()
     return
 
 
