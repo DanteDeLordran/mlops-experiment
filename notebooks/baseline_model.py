@@ -142,8 +142,8 @@ def _(
         plt.ylabel("Actual")
         plt.title("Confusion matrix")
 
-        plt.savefig("/results/confusion_matrix.png")
-        mlflow.log_artifact("/content/confusion_matrix.png")
+        plt.savefig("./results/confusion_matrix.png")
+        mlflow.log_artifact("./results/confusion_matrix.png")
 
     print(f'Accuracy: {accuracy}')
     return
@@ -151,8 +151,7 @@ def _(
 
 @app.cell
 def _(df):
-    df.to_csv('preproccessed_data.csv', index=False)
-
+    df.to_csv('./data/preproccessed_data.csv', index=False)
     return
 
 

@@ -7,31 +7,80 @@
     {
       "id": "Hbol",
       "code_hash": "8ade26c1bc37f9afd4436abac7e2f102",
-      "outputs": [],
-      "console": []
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "[nltk_data] Downloading package stopwords to\n[nltk_data]     /home/lordran/nltk_data...\n[nltk_data]   Package stopwords is already up-to-date!\n[nltk_data] Downloading package wordnet to /home/lordran/nltk_data...\n[nltk_data]   Package wordnet is already up-to-date!\n",
+          "mimetype": "text/plain"
+        }
+      ]
     },
     {
       "id": "MJUe",
       "code_hash": "5662bca8746fca8d2330a867e34810a1",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='39d03790-eaaa-6d37-8efc-9844dadfb45b'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:0,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;family mormon never tried explain still stare puzzled time time like kind strange creature nonetheless come admire patience calmness equanimity acceptance compassion developed thing buddhism teach&#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:1,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;buddhism much lot compatible christianity especially considering sin suffering almost thing suffering caused wanting thing want going getting thing wrong way christian would mean wanting thing coincide god wanting thing coincide but without aid jesus buddhism could also seen proof god mighty omnipotence certainly christian lucky one christ side but everyone else well many christian believe god grace salvation buddhism god way showing grace upon others would also help study thing jesus said see buddha made similar claim rich man getting heaven joke basically advocating rid material possession fact distinctly remembered jesus making someone cry someone asked achieve salvation jesus replied live like buddhist roughly translated also point buddha rarely spoke anything god theory personally knew well enough leave jesus mohamed came later remember conflict difference opinion but education fun involving enlightening easier teach something prove right like intelligent design&#92;&quot;,&#92;&quot;category&#92;&quot;:1},{&#92;&quot;&#92;&quot;:2,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;seriously say thing first get complex explain normal people anyway dogmatic matter say see mechante post reason decide later life move buddhism suit identity though still get keep wisdom family treat like went weird hippy phase didncha never hear end pro tip put one wall jpg&#92;&quot;,&#92;&quot;category&#92;&quot;:-1},{&#92;&quot;&#92;&quot;:3,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;learned want teach different focus goal not wrapping paper buddhism passed others without word buddha&#92;&quot;,&#92;&quot;category&#92;&quot;:0},{&#92;&quot;&#92;&quot;:4,&#92;&quot;clean_comment&#92;&quot;:&#92;&quot;benefit may want read living buddha living christ thich nhat hanh might find subsequent discussion loved one easier able articulate parallel exist buddhism christianity surprised react negatively lost treat compassion deserved understanding although may indeed display sign hurt new path properly sharing way may alleviate fear something may perceive wrong least alien belief may help allowing long run accept although not necessarily agree decision regardless end make way&#92;&quot;,&#92;&quot;category&#92;&quot;:1}]&quot;' data-total-rows='5' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;clean_comment&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;category&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "vblA",
       "code_hash": "c3f3a1bbe77eebf6033cfc9c0c4042de",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<pre class='text-xs'>&lt;Experiment: artifact_location=&#x27;/home/lordran/workspace/mlflow-server/mlartifacts/1&#x27;, creation_time=1764985091076, experiment_id=&#x27;1&#x27;, last_update_time=1764985091076, lifecycle_stage=&#x27;active&#x27;, name=&#x27;RF Baseline&#x27;, tags={}&gt;</pre>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "bkHC",
-      "code_hash": "52786ef08263980d23a98d646269de75",
-      "outputs": [],
-      "console": []
+      "code_hash": "9fb30cd5baed98796f1862e2bbe8750c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run RandomForest_Baseline_TrainTestSplit at: http://localhost:5000/#/experiments/1/runs/fcf0c93f43fe4f8ea5d2d444a3a6e198\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/1\nAccuracy: 0.6479141187661367\n",
+          "mimetype": "text/plain"
+        }
+      ]
     },
     {
-      "id": "nvWS",
-      "code_hash": null,
-      "outputs": [],
+      "id": "lEQa",
+      "code_hash": "0cd674adc0640039a188a20f23ce6fa0",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     }
   ]
