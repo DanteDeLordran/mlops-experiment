@@ -1,0 +1,102 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "a5149b9b75c4e7a7df5edf4e15119dcd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:57:28 INFO mlflow.tracking.fluent: Experiment with name 'Handling imbalanced data' does not exist. Creating a new experiment.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "UEha",
+      "code_hash": "499a707b2a2b6ed94a07f5f674248395",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:57:37 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:57:41 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:57:41 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run Imbalance_class_weights_RandomForest_TFIDF_Trigrams at: http://localhost:5000/#/experiments/4/runs/5653e2af121c4808b0a8bd419f64be0e\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/4\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:57:53 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:57:56 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:57:56 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run Imbalance_oversampling_RandomForest_TFIDF_Trigrams at: http://localhost:5000/#/experiments/4/runs/179b7e80284f4b8ba176f21addda1a0b\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/4\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:58:18 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:58:21 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:58:21 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run Imbalance_adasyn_RandomForest_TFIDF_Trigrams at: http://localhost:5000/#/experiments/4/runs/001937ad16c14675b22cc067f7a10199\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/4\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:58:31 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:58:34 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:58:34 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run Imbalance_undersampling_RandomForest_TFIDF_Trigrams at: http://localhost:5000/#/experiments/4/runs/f52c3823f60b4dbb8a6fc58ee9100ab8\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/4\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:59:11 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:59:14 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:59:14 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run Imbalance_smote_enn_RandomForest_TFIDF_Trigrams at: http://localhost:5000/#/experiments/4/runs/f38e67dbc7b44544bec468e84d69301c\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/4\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
