@@ -1,0 +1,155 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.18.2"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "34f26b5020b00580fac22b03d740d348",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "5c0c42bcb1e68d5d6d5bca4423d7702b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:47:08 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:47:11 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:47:11 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_1000 at: http://localhost:5000/#/experiments/3/runs/749361a27a0c4045a17cb9130f8c4665\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:47:20 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:47:23 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:47:23 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_2000 at: http://localhost:5000/#/experiments/3/runs/981abf4a01e04053af4b88f69f51894c\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:47:32 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:47:36 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:47:36 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_3000 at: http://localhost:5000/#/experiments/3/runs/1e73964b3b364bc8bec919644a26b309\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:47:45 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:47:48 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:47:48 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_4000 at: http://localhost:5000/#/experiments/3/runs/31d0a6bd53884d59934584ba648260bf\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:47:56 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:48:00 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:48:00 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_5000 at: http://localhost:5000/#/experiments/3/runs/b6f73f51d4c646618ae29408755f6c34\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:48:09 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:48:12 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:48:12 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_6000 at: http://localhost:5000/#/experiments/3/runs/b95c88c4a7184df4a3a68e524de927b9\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:48:21 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:48:24 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:48:24 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_7000 at: http://localhost:5000/#/experiments/3/runs/61063c8cf206426eaeaa21a1bc0ca97c\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:48:33 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:48:36 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:48:36 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_8000 at: http://localhost:5000/#/experiments/3/runs/bd54458adaa141b5a31e863712889fd5\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:48:45 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:48:48 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:48:48 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_9000 at: http://localhost:5000/#/experiments/3/runs/0e0b082f96624ceca27b0c4fa15cdcb4\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "2025/12/07 15:48:56 WARNING mlflow.models.model: `artifact_path` is deprecated. Please use `name` instead.\n2025/12/07 15:49:00 WARNING mlflow.utils.environment: Failed to resolve installed pip version. ``pip`` will be added to conda.yaml environment spec without a version specifier.\n\u001b[31m2025/12/07 15:49:00 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n",
+          "mimetype": "text/plain"
+        },
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\ud83c\udfc3 View run TFIDF_Trigrams_max_features_10000 at: http://localhost:5000/#/experiments/3/runs/2915de9c5bdc4ae89e972d978423cbb7\n\ud83e\uddea View experiment at: http://localhost:5000/#/experiments/3\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
